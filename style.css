@@ -1,3 +1,13 @@
+/* Hide all main sections by default */
+#login-screen, #desktop, #terminal, .system-info {
+    display: none;
+}
+
+/* Only show the bootloader or the initial screen you want the user to see */
+#bootloader {
+    display: block;
+}
+
 * {
     margin: 0;
     padding: 0;
